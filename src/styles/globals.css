@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dashboard {
+  @apply grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 p-4;
+}
+
+.widget {
+  @apply bg-white p-4 rounded-lg shadow-md;
+}
+
+.settings {
+  @apply p-4;
+}
